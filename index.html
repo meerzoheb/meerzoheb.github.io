@@ -1,42 +1,31 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Password Generator</title>
-    <link rel="stylesheet" type="text/css" href="password-generator.css" />
+    <meta charset="UTF-8">
+    <title>Password Generator Tool</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="password-generator.css">
   </head>
   <body>
-    <h1>Password Generator</h1>
-    <form>
-      <label for="length">Password Length:</label>
-      <input
-        type="number"
-        id="length"
-        name="length"
-        min="8"
-        max="128"
-        value="12"
-      />
-
-      <label for="uppercase">Include Uppercase Letters:</label>
-      <input type="checkbox" id="uppercase" name="uppercase" checked />
-
-      <label for="lowercase">Include Lowercase Letters:</label>
-      <input type="checkbox" id="lowercase" name="lowercase" checked />
-
-      <label for="numbers">Include Numbers:</label>
-      <input type="checkbox" id="numbers" name="numbers" checked />
-
-      <label for="symbols">Include Symbols:</label>
-      <input type="checkbox" id="symbols" name="symbols" checked />
-
-      <input
-        type="button"
-        value="Generate Random Password"
-        onclick="generatePassword()"
-      />
-    </form>
-
-    <p id="password"></p>
-    <script src="password-generator.js"></script>
+    <div class="container">
+      <h1>Password Generator</h1>
+      <div class="icon"><i class="fas fa-lock"></i></div>
+      <div class="form">
+        <label for="passwordLength">Password Length:</label>
+        <input type="number" id="passwordLength" min="6" max="30" value="10">
+        <br>
+        <label for="passwordComplexity">Password Complexity:</label>
+        <select id="passwordComplexity">
+          <option value="1">Easy</option>
+          <option value="2">Medium</option>
+          <option value="3">Hard</option>
+        </select>
+        <br>
+        <button id="generateBtn">Generate Password</button>
+        <br>
+        <input type="text" id="generatedPassword" readonly>
+      </div>
+    </div>
+	<script src="password-generator.js"></script>
   </body>
 </html>
