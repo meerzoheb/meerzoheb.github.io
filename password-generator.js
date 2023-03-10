@@ -1,29 +1,37 @@
+const generateBtn = document.getElementById("generateBtn");
+const generatedPassword = document.getElementById("generatedPassword");
+
+generateBtn.addEventListener("click", generatePassword);
+
 function generatePassword() {
-  var length = document.getElementById('length').value
-  var uppercase = document.getElementById('uppercase').checked
-  var lowercase = document.getElementById('lowercase').checked
-  var numbers = document.getElementById('numbers').checked
-  var symbols = document.getElementById('symbols').checked
+  const passwordLength = document.getElementById("passwordLength").value;
+  const passwordComplexity = document.getElementById("passwordComplexity").value;
+  let password = "";
 
-  var charset = ''
-  if (uppercase) {
-    charset += 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
-  }
-  if (lowercase) {
-    charset += 'abcdefghijklmnopqrstuvwxyz'
-  }
-  if (numbers) {
-    charset += '0123456789'
-  }
-  if (symbols) {
-    charset += '!@#$%^&*()_+-={}[]|\\:;"\'<>,.?/'
-  }
+  const easyChars = "abcdefghijklmnopqrstuvwxyz";
+  const mediumChars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
+  const hardChars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()_+~`|}{[]\:;?><,./-=";
 
-  var password = ''
-  for (var i = 0; i < length; i++) {
-    var index = Math.floor(Math.random() * charset.length)
-    password += charset.charAt(index)
+  let chars = "";
+
+  switch (passwordComplexity) {
+    case "1":
+      chars = easyChars;
+      break;
+    case "2":
+      chars = mediumChars;
+      break;
+    case "3":
+      chars = hardChars;
+      break;
+    default:
+      chars = easyChars;
   }
 
-  document.getElementById('password').innerHTML = password
+  for (let i = 0; i < passwordLength; i++) {
+    const randomIndex = Math.floor(Math.random() * chars.length);
+    password += chars[randomIndex];
+  }
+
+  generatedPassword.value = password;
 }
