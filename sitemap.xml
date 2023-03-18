@@ -2,10 +2,36 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://meerzoheb.github.io/categories/</loc>
+    <loc>https://cloudworld.devopszoheb.com/tags/about/</loc>
+    <lastmod>2023-03-18T09:14:24+00:00</lastmod>
   </url><url>
-    <loc>https://meerzoheb.github.io/</loc>
+    <loc>https://cloudworld.devopszoheb.com/page/about/</loc>
+    <lastmod>2023-03-18T09:14:24+00:00</lastmod>
   </url><url>
-    <loc>https://meerzoheb.github.io/tags/</loc>
+    <loc>https://cloudworld.devopszoheb.com/</loc>
+    <lastmod>2023-03-18T09:14:24+00:00</lastmod>
+  </url><url>
+    <loc>https://cloudworld.devopszoheb.com/tags/me/</loc>
+    <lastmod>2023-03-18T09:14:24+00:00</lastmod>
+  </url><url>
+    <loc>https://cloudworld.devopszoheb.com/page/</loc>
+    <lastmod>2023-03-18T09:14:24+00:00</lastmod>
+  </url><url>
+    <loc>https://cloudworld.devopszoheb.com/tags/</loc>
+    <lastmod>2023-03-18T09:14:24+00:00</lastmod>
+  </url><url>
+    <loc>https://cloudworld.devopszoheb.com/tags/blog/</loc>
+    <lastmod>2023-03-18T09:13:48+00:00</lastmod>
+  </url><url>
+    <loc>https://cloudworld.devopszoheb.com/blog/</loc>
+    <lastmod>2023-03-18T09:13:48+00:00</lastmod>
+  </url><url>
+    <loc>https://cloudworld.devopszoheb.com/tags/hello/</loc>
+    <lastmod>2023-03-18T09:13:48+00:00</lastmod>
+  </url><url>
+    <loc>https://cloudworld.devopszoheb.com/blog/hello_world/</loc>
+    <lastmod>2023-03-18T09:13:48+00:00</lastmod>
+  </url><url>
+    <loc>https://cloudworld.devopszoheb.com/categories/</loc>
   </url>
 </urlset>
