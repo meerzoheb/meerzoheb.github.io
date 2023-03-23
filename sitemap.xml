@@ -2,22 +2,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://cloudworld.devopszoheb.com/page/about/</loc>
-    <lastmod>2023-03-18T09:14:24+00:00</lastmod>
+    <loc>https://cloudworld.devopszoheb.com/blog/</loc>
+    <lastmod>2023-03-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://cloudworld.devopszoheb.com/</loc>
+    <lastmod>2023-03-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cloudworld.devopszoheb.com/blog/software_as_a_service/</loc>
+    <lastmod>2023-03-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cloudworld.devopszoheb.com/blog/platform_as_a_service/</loc>
+    <lastmod>2023-03-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cloudworld.devopszoheb.com/blog/infrastructure_as_a_service/</loc>
+    <lastmod>2023-03-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cloudworld.devopszoheb.com/page/about/</loc>
     <lastmod>2023-03-18T09:14:24+00:00</lastmod>
   </url><url>
     <loc>https://cloudworld.devopszoheb.com/page/</loc>
     <lastmod>2023-03-18T09:14:24+00:00</lastmod>
   </url><url>
-    <loc>https://cloudworld.devopszoheb.com/blog/</loc>
-    <lastmod>2023-03-18T09:13:48+00:00</lastmod>
-  </url><url>
     <loc>https://cloudworld.devopszoheb.com/blog/cloud_computing/</loc>
-    <lastmod>2023-03-18T09:13:48+00:00</lastmod>
-  </url><url>
-    <loc>https://cloudworld.devopszoheb.com/blog/software_as_a_service/</loc>
     <lastmod>2023-03-18T09:13:48+00:00</lastmod>
   </url><url>
     <loc>https://cloudworld.devopszoheb.com/categories/</loc>
