@@ -6,7 +6,47 @@
     <description>Recent content in Blogs on Cloud World</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 23 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://cloudworld.devopszoheb.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 30 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://cloudworld.devopszoheb.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Infrastructure as Code: Provisioning with Terraform</title>
+      <link>https://cloudworld.devopszoheb.com/blog/infrastrcture_as_code_zth/</link>
+      <pubDate>Thu, 30 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://cloudworld.devopszoheb.com/blog/infrastrcture_as_code_zth/</guid>
+      <description>Ready to take your infrastructure to the next level? Learn how to provision, manage, and scale your infrastructure with Terraform, the leading Infrastructure as Code tool!
+Introduction: As DevOps teams continue to adopt cloud-based infrastructure, the need for efficient and scalable infrastructure management has become increasingly critical. This is where Infrastructure as Code (IaC) comes into play, allowing teams to automate infrastructure deployment and management using code. And one of the most popular IaC tools in the DevOps world is Terraform.</description>
+    </item>
+    
+    <item>
+      <title>Building and Testing: Continuous Integration and Delivery</title>
+      <link>https://cloudworld.devopszoheb.com/blog/continuous_integration_delivery/</link>
+      <pubDate>Wed, 29 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://cloudworld.devopszoheb.com/blog/continuous_integration_delivery/</guid>
+      <description>Want to improve your development process and deliver high-quality software faster? Learn how to streamline your build and testing process with continuous integration and delivery.
+Introduction: In the world of DevOps, building and testing are critical steps in the software development process. These steps ensure that your code is free of errors, performs as expected, and meets the needs of your users. However, manually building and testing your code can be time-consuming and error-prone.</description>
+    </item>
+    
+    <item>
+      <title>Version Control with Git: Managing Your Codebase</title>
+      <link>https://cloudworld.devopszoheb.com/blog/version_control_with_git/</link>
+      <pubDate>Tue, 28 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://cloudworld.devopszoheb.com/blog/version_control_with_git/</guid>
+      <description>Introduction: Version control is the backbone of any software development project. It helps in keeping track of changes made to the codebase, collaboration, and versioning. Git is one of the most widely used version control systems in the world of DevOps. It provides an efficient way of tracking changes, managing codebase, and collaborating with team members.
+In this story, we&amp;rsquo;ll dive into the world of version control and learn how to use Git, one of the most popular and powerful version control systems in the DevOps world.</description>
+    </item>
+    
+    <item>
+      <title>Introduction to DevOps: Understanding the Basics</title>
+      <link>https://cloudworld.devopszoheb.com/blog/introduction_to_devops/</link>
+      <pubDate>Mon, 27 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://cloudworld.devopszoheb.com/blog/introduction_to_devops/</guid>
+      <description>In today&amp;rsquo;s fast-paced and complex world, businesses need to be agile and responsive to stay ahead of the competition. However, managing complexity can be a major challenge. Enter DevOps, the transformative practice that can help organizations streamline their processes and deliver value to customers faster than ever before.
+Introduction: In recent years, businesses of all sizes and industries have been embracing DevOps as a way to improve their software development and delivery processes.</description>
+    </item>
+    
     <item>
       <title>What is SaaS? Exploring the Benefits and Examples of Software as a Service</title>
       <link>https://cloudworld.devopszoheb.com/blog/software_as_a_service/</link>
